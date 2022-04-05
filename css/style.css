@@ -79,6 +79,15 @@ font-family: sans-serif;
   font-family: 'Orbitron', sans-serif;
   /* inline-size: 200px; */
   word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+.fn{
+  font-size: 0.8rem;
 }
 
 .num{
@@ -92,6 +101,32 @@ font-family: sans-serif;
   cursor: pointer;
   /* display: table-cell;
   vertical-align: middle; */
+}
+
+.label{
+  font-size: 0.5rem;
+  /* /*  */
+  /* outline: 1px solid wheat; */
+  color: #666;
+  text-align: center;
+  border: none !important;
+}
+
+.power{
+  background: #FF7878;
+ 
+}
+
+.clear{
+  background-color: #FFF89A;
+}
+
+.date{
+  background-color: #1572A1;
+}
+
+.time{
+  background-color: #99FEFF;
 }
 
 /******************************************
