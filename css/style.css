@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cutive&family=Cutive+Mono&family=Kaushan+Script&family=Niconne&family=Open+Sans&family=Orbitron:wght@500&family=Playfair+Display&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Source+Serif+4&family=WindSong:wght@500&display=swap');
+
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background: #333;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+max-height: 100vh;
+font-family: sans-serif;
+}
+*:hover{
+  /* outline: 1px solid red; */
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container{
+  background: #0d1117;
+  /* margin: auto; */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+#numlist{
+  
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  gap: 0.5rem;
+}
+
+.display{
+  width: 100%;
+  max-width: 200px;
+  height: 3rem;
+  border: 1px solid #666;
+  margin-bottom: 1rem;
+  border-radius: .3rem;
+  color: #666;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  font-family: 'Orbitron', sans-serif;
+  /* inline-size: 200px; */
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+.fn{
+  font-size: 0.8rem;
+}
+
+.num{
+  border:1px solid #666;
+  border-radius: 50%;
+  color: #666;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  padding: .4rem;
+  cursor: pointer;
+  /* display: table-cell;
+  vertical-align: middle; */
+}
+
+.label{
+  font-size: 0.5rem;
+  /* /*  */
+  /* outline: 1px solid wheat; */
+  color: #666;
+  text-align: center;
+  border: none !important;
+}
+
+.power{
+  background: #FF7878;
+ 
+}
+
+.clear{
+  background-color: #FFF89A;
+}
+
+.date{
+  background-color: #1572A1;
+}
+
+.time{
+  background-color: #99FEFF;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
